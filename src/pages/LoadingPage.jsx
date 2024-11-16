@@ -6,7 +6,7 @@ function LoadingPage() {
       <div className="h-screen flex flex-col justify-center items-center">
         <div className="w-28">
           <img src={dipperRunning} alt="Dipper Running" />
-          <p className="text-center">Loading...</p>
+          <p className="text-center font-potta">Loading...</p>
         </div>
       </div>
     </>
