@@ -37,10 +37,30 @@ function StartPage({ setDifficultyLevel, playClick }) {
             >
               Easy
             </button>
-            <button className="bg-grayish hover:scale-110 text-black font-potta font-bold py-2 px-4 rounded">
+            <button
+              onClick={() =>
+                //first number - amount of games
+                //second number - amount of cards
+                {
+                  setDifficultyLevel([7, 4]);
+                  playClick();
+                }
+              }
+              className="bg-grayish hover:scale-110 text-black font-potta font-bold py-2 px-4 rounded"
+            >
               Medium
             </button>
-            <button className="bg-grayish hover:scale-110 text-black font-potta font-bold py-2 px-4 rounded">
+            <button
+              onClick={() =>
+                //first number - amount of games
+                //second number - amount of cards
+                {
+                  setDifficultyLevel([10, 5]);
+                  playClick();
+                }
+              }
+              className="bg-grayish hover:scale-110 text-black font-potta font-bold py-2 px-4 rounded"
+            >
               Hard
             </button>
           </div>
